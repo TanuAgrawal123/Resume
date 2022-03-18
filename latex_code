@@ -1,0 +1,230 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+ {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+ \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+   \textbf{#1} & #2 \\
+  {\small#3} & {\small #4} \\
+ \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+ \item
+ \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+   \small#1 & #2 \\
+ \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+ \textbf{\Huge \scshape Tanu Agrawal} \\ \vspace{1pt}
+  \href{mailto:tanuagrawal1389@gmail.com}{\underline{tanuagrawal1389@gmail.com}} $|$
+ \href{https://linkedin.com/in/tanugrawal/}{\underline{Linkedin}} $|$
+ \href{https://github.com/TanuAgraawal123}{\underline{Github}} $|$
+ \href{https://tanuagrawal-portfolio.herokuapp.com/}{\underline{Portfolio}} $|$
+ {\underline{+(91)8476935639}}
+  
+
+ 
+\end{center}
+
+
+
+  
+  \section{\textbf{EXPERIENCE}}
+  \resumeSubHeadingListStart
+ \resumeSubheading
+   {Software Development Engineer}{Jan 2022 -- Present}
+   {\textbf{Amazon India}}{Bengaluru, India}
+   \resumeItemListStart
+     \resumeItem{Working in Amaozon Payment Product Team}
+     \resumeItem{ Working on CBCC feature for JP marketplace}
+\resumeItemListEnd
+ \resumeSubheading
+   {Associate System Engineer}{July 2021 -- Jan 2022}
+    {\textbf{Airbus India}}{Bengaluru, India}
+   \resumeItemListStart
+     \resumeItem{Joined the Information Management Department at Airbus}
+    
+     \resumeItem{Worked on Development of Airbus Ground Operations Application using ReactJS and SpringBoot.}
+    \resumeItemListEnd
+ \resumeSubheading
+   {Software Development Engineer Intern }{May 2020-- July 2020}
+   {\textbf{ Volsko Infotech India Pvt. Ltds}}{Ahmedabad, India}
+   \resumeItemListStart
+     \resumeItem{Worked as Python Django Developer. Building APIs, worked on inventory system functionality for B2B platform
+involving business plans and marketing strategies/}
+ \resumeItem{Developed an inventory system for an e-commerce site. Worked on Payment functionality using Stripe, membership
+functionality, sellers account, vendor account, connect with android using Rest Framework.}
+
+    \resumeItemListEnd    
+ 
+
+  
+ \resumeSubHeadingListEnd
+ 
+ %-----------EDUCATION-----------
+\section{\textbf{EDUCATION}}
+  \resumeSubHeadingListStart
+ \resumeSubheading
+   {Bundelkhand Institute of Engineering and Technology}{Jhansi, India}
+   {Bachelor of Technology in Computer Science, Secured an aggregate of 80 percentages. }{Aug. 2017 -- July 2021}
+ \resumeSubheading
+   {St. Paul's Senior Secondary School}{Mathura, India}
+   {Intermediate(CBSE), Secured an aggregate of 87 percentages. }{April. 2015 -- April 2016}
+   \resumeSubheading
+   {St. Paul's Senior Secondary School}{Mathura, India}
+   {High School(CBSE), Secured an aggregate of 9.0 CGPA.}{April 2013 -- April 2014}
+  \resumeSubHeadingListEnd
+ 
+ 
+%-----------PROJECTS-----------
+\section{\textbf{PROJECTS}}
+ \resumeSubHeadingListStart
+
+   \resumeProjectHeading
+       {\textbf{GCS(College Site)} $|$ \textbf{Python, Django, API, Sqlite Database, Bootstrap }}{May 2021 -- Jun 2021}
+       \resumeItemListStart
+        
+         \resumeItem{Django Based Web App which provides easy access to study material, past exam papers, e-books, tech news, and discussion panel for college students during this pandemic situation.}
+          \resumeItem{Having features like Login/sign-up facility for students and teachers, easy access to toppers study material, the voting system for getting quality material. platform to ask doubts from teachers. Used API to fetch tech news, contribution panel for students and teachers to contribute study material.
+}
+   \resumeItem{\href{https://github.com/TanuAgrawal123/StudyApp}{\textbf{\underline{Github}}}  {  } \href{https://gcsstudysite.pythonanywhere.com/}{\textbf{\underline{View Project}}}}
+         
+         
+       \resumeItemListEnd 
+
+   \resumeProjectHeading
+       {\textbf{Blog App} $|$ \textbf{ Python, Django, Bootstrap, CSS }}{Mar 2020 -- Apr 2020}
+       \resumeItemListStart
+         \resumeItem{Blog App having features like adding/editing new post, commenting on post, auto add publish date.
+}
+        
+         \resumeItem{\href{https://github.com/TanuAgrawal123/BlogApp}{\textbf{\underline{Github}}}  {  } \href{http://tanuagrawal.pythonanywhere.com/}{\textbf{\underline{View Project}}}}
+         
+       \resumeItemListEnd
+       
+ \resumeSubHeadingListEnd
+
+
+
+
+
+%-----------EXPERIENCE-----------
+
+
+\section{\textbf{ACHIEVEMENTS}}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+         \resumeItemListStart
+         \resumeItem{Completed 100 Days of Coding Challenge}{\href{https://github.com/TanuAgrawal123/100DaysOfCode}{\textbf{\underline{Github Link}}} }
+         \resumeItem{Good Problem Solving skill as Solved 250+ questions on Leetcode} {\href{https://leetcode.com/tanuagrawal/}{\textbf{\underline{Leetcode Profile}}}}
+         \resumeItem{Qualified Gate CSE 2021 and Secured AIR 1855 with 611 score.}
+  
+     \resumeItem{{\textbf{ Mentor and Executive Member of CODE}}.
+     CODE is an initiative of us focuses on providing better learning and career opportunities in IT sector. We conduct hackathons, workshop, coding competitions, mock interviews and guide students regarding projects. {\href{https://ourcode.in}{\textbf{\underline{CODE Site}}}}}
+    
+    \resumeItemListEnd
+       \resumeItemListEnd
+ \end{itemize}
+
+
+  
+
+
+
+ \section{\textbf{SKILLS}}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+         \resumeItemListStart
+         \resumeItem{Django, REST APIs(basics), CSS, HTML, JS, Bootstrap, React}
+       
+         \resumeItem{ Python, C++, C, Java}
+         \resumeItem{Data Structure and Algorithm, MySQL}
+         
+       \resumeItemListEnd
+ \end{itemize}
+ 
+  
+%-------------------------------------------
+\end{document}
