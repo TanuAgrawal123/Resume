@@ -120,7 +120,7 @@
    {\textbf{Amazon India}}{Bengaluru, India}
    \resumeItemListStart
      \resumeItem{Working in Amaozon Payment Product Team}
-     \resumeItem{ Working on CBCC feature for JP marketplace}
+     \resumeItem{ Working on CBCC feature for JP marketplace. Contributing in different project in acquisition area.}
 \resumeItemListEnd
  \resumeSubheading
    {Associate System Engineer}{July 2021 -- Jan 2022}
@@ -165,7 +165,7 @@ functionality, sellers account, vendor account, connect with android using Rest 
  \resumeSubHeadingListStart
 
    \resumeProjectHeading
-       {\textbf{GCS(College Site)} $|$ \textbf{Python, Django, API, Sqlite Database, Bootstrap }}{May 2021 -- Jun 2021}
+       {\textbf{GCS(College Site)} $|$ \textbf{Python, Django, API, Sqlite Database, Bootstrap }}{May 2020 -- Jun 2020}
        \resumeItemListStart
         
          \resumeItem{Django Based Web App which provides easy access to study material, past exam papers, e-books, tech news, and discussion panel for college students during this pandemic situation.}
@@ -177,7 +177,7 @@ functionality, sellers account, vendor account, connect with android using Rest 
        \resumeItemListEnd 
 
    \resumeProjectHeading
-       {\textbf{Blog App} $|$ \textbf{ Python, Django, Bootstrap, CSS }}{Mar 2020 -- Apr 2020}
+       {\textbf{Blog App} $|$ \textbf{ Python, Django, Bootstrap, CSS }}{Mar 2019 -- Apr 2019}
        \resumeItemListStart
          \resumeItem{Blog App having features like adding/editing new post, commenting on post, auto add publish date.
 }
@@ -217,7 +217,7 @@ functionality, sellers account, vendor account, connect with android using Rest 
  \section{\textbf{SKILLS}}
   \begin{itemize}[leftmargin=0.15in, label={}]
          \resumeItemListStart
-         \resumeItem{Django, REST APIs(basics), CSS, HTML, JS, Bootstrap, React}
+         \resumeItem{Django, REST APIs(basics), CSS, HTML, JS, Bootstrap, React, AWS(Basic)}
        
          \resumeItem{ Python, C++, C, Java}
          \resumeItem{Data Structure and Algorithm, MySQL}
